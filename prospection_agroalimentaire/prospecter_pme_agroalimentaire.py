@@ -382,6 +382,8 @@ def enrich_with_pappers(
     quota_exhausted = remaining <= 0
 
     for row in rows:
+        if remaining <= 0:
+            quota_exhausted = True
         if quota_exhausted:
             continue
 
