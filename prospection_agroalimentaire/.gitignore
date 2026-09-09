@@ -1,0 +1,5 @@
+.env
+*.csv
+.pappers_quota_state.json
+__pycache__/
+*.pyc
